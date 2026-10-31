@@ -54,6 +54,7 @@ El reporte detallado de las pruebas de vulnerabilidad se encuentra en el archivo
 - Análisis estático con MobSF de la app original (debug).
 - Análisis dinámico con MobSF de la app original (debug): tráfico de red solo hacia servidores de Google, sin trackers, sin bases de datos y sin actividades exportadas. Las pruebas TLS/Cleartext de MobSF figuran como *Not Tested*.
 - Análisis estático con MobSF de la versión corregida (release).
+- Análisis dinámico con MobSF de la versión corregida (release): tráfico solo por HTTPS hacia servidores de Google (un dominio en esa ejecución), sin trackers y sin bases de datos. Las pruebas TLS/Cleartext también figuran como *Not Tested*.
 
 ## Preguntas de cierre
 
